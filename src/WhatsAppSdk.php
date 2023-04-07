@@ -12,8 +12,8 @@ class WhatsAppSdk
     use CheckApiAvailable;
     use ManagesInstances;
 
-    private const TEST_BASE_URL = 'https://dev-wa-proxy.eazeapps.io';
-    private const LIVE_BASE_URL = 'https://wa-proxy.eazeapps.io';
+    private const TEST_BASE_URL = 'https://dev.waapi.app';
+    private const LIVE_BASE_URL = 'https://waapi.app';
 
     /**
      * If the test or live environment should be used
